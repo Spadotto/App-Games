@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/game1Fragment"
+        android:title="Tic Tac Toe"
+        app:showAsAction="never"
+        android:menuCategory="secondary"
+        />
+
+    <item
+        android:id="@+id/game2Fragment"
+        android:title="Memory Game"
+        app:showAsAction="never"
+        android:menuCategory="secondary"
+        />
+
+    <item
+        android:id="@+id/game3Fragment"
+        android:title="Catch the Fruits"
+        app:showAsAction="never"
+        android:menuCategory="secondary"
+        />
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Home"
+        app:showAsAction="never"
+        />
+
+</menu>
